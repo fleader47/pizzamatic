@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivero</title>
+    <meta name="description" content="Giveyour pizza order with delivero">
+    <meta name="keywords" content="pizza,order,online,delivery,london delivery">
+</head>
+<body>
+    <header>
+        <h1> Login </h1>
+        <p> Please Login to give your order </p>
+    </header>  
+    <main>
+        <form action="./order.html" method="POST">
+            <section>
+                <label for="username"> Username </label>
+                <input id="username" type="text"  minlength="5" maxlength="15" pattern="[a-zA-Z0-9]" title="Use the letter and number betwee 5-15" required>
+            </section>
+            <br>
+            <section>            
+                <label for="password">Password</label>
+                <input id="password" type="password" minlength="5" maxlength="15" required>
+            </section>
+            <section>
+                <!-- <input type="submit" value="login"> -->
+                <button type="submit" >Login</button>
+            </section>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        &copy;2020 Delivero
+    </footer>
+</body>
+</html>
